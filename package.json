@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-nss",
+  "version": "1.0.0",
+  "description": "NosoloSoftware Javascript style guide",
+  "main": "index.js",
+  "author": "Juan Antonio Galisteo",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
