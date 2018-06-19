@@ -18,6 +18,7 @@ module.exports = {
     'no-undef': ['off'],
     'no-new': ['off'],
     'no-mixed-operators': ['off'],
+    'no-multi-str': ['off'],
     'no-param-reassign': ['off'],
     'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
     'no-restricted-globals': ['off'],

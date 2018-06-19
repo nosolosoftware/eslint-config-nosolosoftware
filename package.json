@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NosoloSoftware Javascript style guide",
   "main": "index.js",
   "author": "Juan Antonio Galisteo",
