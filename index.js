@@ -4,7 +4,10 @@ module.exports = {
     commonjs: true,
     es6: true
   },
-  extends: 'airbnb-base',
+  extends: [
+    'airbnb-base',
+    'plugin:vue/recommended'
+  ],
   parserOptions: {
     sourceType: 'module'
   },
@@ -32,6 +35,29 @@ module.exports = {
     'vars-on-top': ['off'],
     'arrow-body-style': ['error', 'always'],
     'arrow-parens': ['error', 'as-needed'],
-    'max-len': ['error', {code: 100}]
+    'max-len': ['error', {code: 100}],
+    'vue/order-in-components': ['error', {
+      order: [
+        'el',
+        'name',
+        'parent',
+        'functional',
+        'template',
+        ['delimiters', 'comments'],
+        ['components', 'directives', 'filters'],
+        'extends',
+        'mixins',
+        'inheritAttrs',
+        'model',
+        ['props', 'propsData'],
+        'data',
+        'computed',
+        'watch',
+        'LIFECYCLE_HOOKS',
+        'methods',
+        'render',
+        'renderError'
+      ]
+    }]
   }
 };
