@@ -58,6 +58,7 @@ module.exports = {
         'render',
         'renderError'
       ]
-    }]
+    }],
+    'vue/require-default-prop': ['off']
   }
 };
