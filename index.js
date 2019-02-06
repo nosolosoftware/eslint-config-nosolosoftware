@@ -59,6 +59,7 @@ module.exports = {
         'renderError'
       ]
     }],
-    'vue/require-default-prop': ['off']
+    'vue/require-default-prop': ['off'],
+    'newline-per-chained-call': ['off']
   }
 };
