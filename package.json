@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-nss",
+  "name": "eslint-config-nosolosoftware",
   "version": "2.1.0",
   "description": "NosoloSoftware Javascript style guide",
   "main": "index.js",
@@ -8,9 +8,14 @@
   "homepage": "https://github.com/nosolosoftware/eslint-config-nss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nosolosoftware/eslint-config-nss.git"
+    "url": "https://github.com/nosolosoftware/eslint-config-nosolosoftware.git"
   },
-  "keywords": ["eslint", "config", "nss", "nosolosoftware"],
+  "keywords": [
+    "eslint",
+    "config",
+    "nss",
+    "nosolosoftware"
+  ],
   "peerDependencies": {
     "eslint": "^5.6.0",
     "eslint-config-airbnb-base": "^13.1.0",

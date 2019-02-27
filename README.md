@@ -1,4 +1,4 @@
-# eslint-config-nss
+# eslint-config-nosolosoftware
 
 *eslint* configuration file for our frontend stack used in all NoSoloSoftware developments.
 
@@ -8,7 +8,7 @@
 You can install this package using the following npm command:
 
 ```
-$ npm install -g eslint-config-nss
+$ npm install -g eslint-config-nosolosoftware
 ```
 
 
@@ -20,7 +20,7 @@ Contributions are welcome, please follow
 
 ## Versioning
 
-**eslint-config-nss** uses [Semantic Versioning 2.0.0](http://semver.org)
+**eslint-config-nosolosoftware** uses [Semantic Versioning 2.0.0](http://semver.org)
 
 
 ## License
