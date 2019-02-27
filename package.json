@@ -3,8 +3,14 @@
   "version": "2.1.0",
   "description": "NosoloSoftware Javascript style guide",
   "main": "index.js",
-  "author": "Juan Antonio Galisteo",
+  "author": "Juan Antonio Galisteo <jgalisteo@nosolosoftware.es>",
   "license": "MIT",
+  "homepage": "https://github.com/nosolosoftware/eslint-config-nss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nosolosoftware/eslint-config-nss.git"
+  },
+  "keywords": ["eslint", "config", "nss", "nosolosoftware"],
   "peerDependencies": {
     "eslint": "^5.6.0",
     "eslint-config-airbnb-base": "^13.1.0",
