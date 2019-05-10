@@ -12,6 +12,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    camelcase: ['error', {ignoreDestructuring: true}],
     'comma-dangle': ['error', 'never'],
     'function-paren-newline': ['error', 'consistent'],
     'import/no-unresolved': ['off'],
