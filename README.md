@@ -1,6 +1,8 @@
 # eslint-config-nosolosoftware
 
-*eslint* configuration file for our frontend stack used in all NoSoloSoftware developments.
+*ESLint* configuration file for our frontend stack used in all NoSoloSoftware developments. It uses
+the [shareable configs](https://eslint.org/docs/developer-guide/shareable-configs) option provided
+by *ESLint*.
 
 
 ## Installation
@@ -9,6 +11,17 @@ You can install this package using the following npm command:
 
 ```
 $ npm install -g eslint-config-nosolosoftware
+```
+
+
+## Usage
+
+In order to use this configuration in our project, we should puts the following code in our
+`.eslintrc.yml`:
+
+```yaml
+---
+extends: nosolosoftware
 ```
 
 
