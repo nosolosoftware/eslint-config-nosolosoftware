@@ -34,9 +34,10 @@ module.exports = {
     'prefer-destructuring': ['off'],
     radix: ['off'],
     'vars-on-top': ['off'],
-    'arrow-body-style': ['error', 'always'],
+    'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
     'max-len': ['error', {code: 100}],
+    semi: ['error', 'never', {beforeStatementContinuationChars: 'always'}],
     'vue/order-in-components': ['error', {
       order: [
         'el',
