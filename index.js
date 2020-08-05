@@ -27,6 +27,7 @@ module.exports = {
     'no-param-reassign': ['off'],
     'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
     'no-restricted-globals': ['off'],
+    'no-unused-vars': ['error', {argsIgnorePattern: '_'}],
     'object-curly-newline': ['error', {multiline: true, consistent: true}],
     'object-curly-spacing': ['error', 'never'],
     'object-shorthand': ['error', 'always', {ignoreConstructors: false, avoidQuotes: false}],
