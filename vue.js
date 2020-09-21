@@ -26,6 +26,7 @@ module.exports = {
         'renderError'
       ]
     }],
-    'vue/require-default-prop': ['off']
+    'vue/require-default-prop': ['off'],
+    'vue/component-definition-name-casing': ['error', 'kebab-case']
   }
 }
