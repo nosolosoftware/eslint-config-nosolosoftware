@@ -30,7 +30,6 @@ In those cases where Vuejs is being used, we encourage you to add:
 extends:
   - nosolosoftware
   - nosolosoftware/vue
-
 ```
 
 ## Contributing
