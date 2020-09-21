@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Juan Antonio Galisteo <jgalisteo@nosolosoftware.es>",
   "license": "MIT",
-  "homepage": "https://github.com/nosolosoftware/eslint-config-nss",
+  "homepage": "https://github.com/nosolosoftware/eslint-config-nosolosoftware",
   "repository": {
     "type": "git",
     "url": "https://github.com/nosolosoftware/eslint-config-nosolosoftware.git"
