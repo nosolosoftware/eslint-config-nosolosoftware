@@ -9,6 +9,7 @@ module.exports = {
     'plugin:vue/recommended'
   ],
   parserOptions: {
+    ecmaVersion: 2020,
     sourceType: 'module'
   },
   rules: {
