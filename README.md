@@ -21,9 +21,16 @@ In order to use this configuration in our project, we should puts the following 
 
 ```yaml
 ---
-extends: nosolosoftware
+extends:
+  - nosolosoftware
 ```
 
+In those cases where Vuejs is being used, we encourage you to add:
+```yaml
+extends:
+  - nosolosoftware
+  - nosolosoftware/vue
+```
 
 ## Contributing
 

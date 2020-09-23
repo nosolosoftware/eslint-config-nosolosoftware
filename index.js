@@ -5,10 +5,10 @@ module.exports = {
     es6: true
   },
   extends: [
-    'airbnb-base',
-    'plugin:vue/recommended'
+    'airbnb-base'
   ],
   parserOptions: {
+    ecmaVersion: 2020,
     sourceType: 'module'
   },
   rules: {
@@ -39,30 +39,6 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'max-len': ['error', {code: 100}],
     semi: ['error', 'never', {beforeStatementContinuationChars: 'always'}],
-    'vue/order-in-components': ['error', {
-      order: [
-        'el',
-        'name',
-        'parent',
-        'functional',
-        'template',
-        ['delimiters', 'comments'],
-        ['components', 'directives', 'filters'],
-        'extends',
-        'mixins',
-        'inheritAttrs',
-        'model',
-        ['props', 'propsData'],
-        'data',
-        'computed',
-        'watch',
-        'LIFECYCLE_HOOKS',
-        'methods',
-        'render',
-        'renderError'
-      ]
-    }],
-    'vue/require-default-prop': ['off'],
     'newline-per-chained-call': ['off'],
     'no-multiple-empty-lines': ['error', {max: 1}]
   }
