@@ -40,6 +40,7 @@ module.exports = {
     'max-len': ['error', {code: 100}],
     semi: ['error', 'never', {beforeStatementContinuationChars: 'always'}],
     'newline-per-chained-call': ['off'],
-    'no-multiple-empty-lines': ['error', {max: 1}]
+    'no-multiple-empty-lines': ['error', {max: 1}],
+    'padding-line-between-statements': ['error', {blankLine: 'always', prev: '*', next: 'return'}]
   }
 };
