@@ -8,7 +8,7 @@ module.exports = {
     'airbnb-base'
   ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
     sourceType: 'module'
   },
   rules: {
@@ -20,20 +20,20 @@ module.exports = {
     'import/no-extraneous-dependencies': ['off'],
     'no-console': ['warn'],
     'no-else-return': ['error', {allowElseIf: true}],
-    'no-undef': ['off'],
+    'no-undef': ['off'], // TODO: desactivar
     'no-new': ['off'],
     'no-mixed-operators': ['off'],
     'no-multi-str': ['off'],
-    'no-param-reassign': ['off'],
+    // 'no-param-reassign': ['off'],
     'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
-    'no-restricted-globals': ['off'],
+    // 'no-restricted-globals': ['off'],
     'no-unused-vars': ['error', {argsIgnorePattern: '_'}],
     'object-curly-newline': ['error', {multiline: true, consistent: true}],
     'object-curly-spacing': ['error', 'never'],
     'object-shorthand': ['error', 'always', {ignoreConstructors: false, avoidQuotes: false}],
     'operator-linebreak': ['error', 'after'],
     'prefer-destructuring': ['off'],
-    radix: ['off'],
+    radix: ['error', 'as-needed'],
     'vars-on-top': ['off'],
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
