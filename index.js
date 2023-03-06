@@ -8,39 +8,43 @@ module.exports = {
     'airbnb-base'
   ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2022,
     sourceType: 'module'
   },
   rules: {
-    camelcase: ['off'],
+    'curly': ['error', 'multi-line', 'consistent'],
+    camelcase: ['error'],
+    'class-methods-use-this': ['off'],
     'comma-dangle': ['error', 'never'],
     'function-paren-newline': ['error', 'consistent'],
-    'import/no-unresolved': ['off'],
-    'import/extensions': ['off'],
-    'import/no-extraneous-dependencies': ['off'],
     'no-console': ['warn'],
     'no-else-return': ['error', {allowElseIf: true}],
-    'no-undef': ['off'],
     'no-new': ['off'],
     'no-mixed-operators': ['off'],
     'no-multi-str': ['off'],
-    'no-param-reassign': ['off'],
+    'no-nested-ternary': ['error'],
     'no-plusplus': ['error', {allowForLoopAfterthoughts: true}],
-    'no-restricted-globals': ['off'],
     'no-unused-vars': ['error', {argsIgnorePattern: '_'}],
     'object-curly-newline': ['error', {multiline: true, consistent: true}],
     'object-curly-spacing': ['error', 'never'],
     'object-shorthand': ['error', 'always', {ignoreConstructors: false, avoidQuotes: false}],
     'operator-linebreak': ['error', 'after'],
     'prefer-destructuring': ['off'],
-    radix: ['off'],
+    radix: ['error', 'as-needed'],
     'vars-on-top': ['off'],
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
     'max-len': ['error', {code: 100}],
     semi: ['error', 'never', {beforeStatementContinuationChars: 'always'}],
+    'semi-style': ['error', 'first'],
     'newline-per-chained-call': ['off'],
     'no-multiple-empty-lines': ['error', {max: 1}],
-    'padding-line-between-statements': ['error', {blankLine: 'always', prev: '*', next: 'return'}]
+    'padding-line-between-statements': ['error', {blankLine: 'always', prev: '*', next: 'return'}],
+
+    'import/extensions': ['off'],
+    'import/no-extraneous-dependencies': ['off'],
+    // Lo desactivamos para que las clases tengan todas un nombre y los LSP sean de ayuda
+    'import/prefer-default-export': 'off',
+    'import/no-default-export': 'error',
   }
 };
