@@ -25,11 +25,26 @@ extends:
   - nosolosoftware
 ```
 
-In those cases where Vuejs is being used, we encourage you to add:
+A couple of options are provided depending on your stack:
+
+* Use of Vue:
 ```yaml
 extends:
   - nosolosoftware
-  - nosolosoftware/vue
+  - nosolosoftware/vue2 // nosolosoftare/v3 if v3.X is being used
+```
+* Use of typescript
+```yaml
+extends:
+  - nosolosoftware
+  - nosolosoftware/typescript
+```
+* Use of typescript & Vue
+```yaml
+extends:
+  - nosolosoftware
+  - nosolosoftware/typescript
+  - nosolosoftware/vue3
 ```
 
 ## Contributing
