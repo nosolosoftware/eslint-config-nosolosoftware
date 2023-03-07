@@ -26,6 +26,9 @@ module.exports = {
     // Correcta gestion del no-use
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    // Correcta gestion de import duplicados
+    'import/no-duplicates': 'off',
+    '@typescript-eslint/no-duplicate-imports': 'error',
 
     '@typescript-eslint/consistent-type-imports': [
       'error',
