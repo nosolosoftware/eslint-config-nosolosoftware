@@ -46,6 +46,14 @@ extends:
   - nosolosoftware/typescript
   - nosolosoftware/vue3
 ```
+* Use with [prettier](https://github.com/nosolosoftware/prettier-config-nosolosoftware)
+
+We have to disable some rules as they enter on conflict with prettier.
+```yaml
+extends:
+  - nosolosoftware
+  - nosolosoftware/prettier-conflict
+```
 
 ## Contributing
 
