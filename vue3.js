@@ -42,7 +42,28 @@ module.exports = {
     }],
     'vue/multi-word-component-names': ['off'],
     'vue/require-default-prop': ['off'],
-    'vue/component-definition-name-casing': ['error', 'kebab-case']
+    'vue/component-definition-name-casing': ['error', 'kebab-case'],
+    'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: {
+          max: 10 // We use prettier so this number doesn't really matter
+        },
+        multiline: {
+          max: 1
+        }
+      }
+    ],
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'any'
+        }
+      }
+    ],
+    'vue/singleline-html-element-content-newline': 'off', // we use prettier to control this
+    'no-undef': 'off', // vue3-recommended reactivates this rule
   },
   overrides: [
     {
