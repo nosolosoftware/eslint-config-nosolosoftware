@@ -15,7 +15,7 @@ module.exports = {
     'curly': ['error', 'multi-line', 'consistent'],
     camelcase: ['error'],
     'class-methods-use-this': ['off'],
-    'comma-dangle': ['error', 'never'],
+    'comma-dangle': ['error', 'always-multiline'],
     'function-paren-newline': ['error', 'consistent'],
     'no-console': ['warn'],
     'no-else-return': ['error', {allowElseIf: true}],
