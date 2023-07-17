@@ -4,11 +4,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [5.1.0] - 2023-07-12
+## [5.1.0] - 2023-17-12
 
 ### Changed
 * Added comma-spacing to prettier-conflict
 * Added no-extra-semmi to prettier-conflict
+* Make sure .vue files are sorted in the order we need.
 
 ## [5.0.0] - 2023-07-10
 
