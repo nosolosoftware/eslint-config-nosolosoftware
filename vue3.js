@@ -42,7 +42,7 @@ module.exports = {
     }],
     'vue/multi-word-component-names': ['off'],
     'vue/require-default-prop': ['off'],
-    'vue/component-definition-name-casing': ['error', 'kebab-case'],
+    'vue/component-definition-name-casing': ['error', 'PascalCase'],
     'vue/max-attributes-per-line': [
       'error',
       {
