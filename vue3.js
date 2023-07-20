@@ -42,7 +42,7 @@ module.exports = {
     }],
     'vue/multi-word-component-names': ['off'],
     'vue/require-default-prop': ['off'],
-    'vue/component-definition-name-casing': ['error', 'kebab-case'],
+    'vue/component-definition-name-casing': ['error', 'PascalCase'],
     'vue/max-attributes-per-line': [
       'error',
       {
@@ -64,7 +64,11 @@ module.exports = {
     ],
     'vue/singleline-html-element-content-newline': 'off', // we use prettier to control this
     'no-undef': 'off', // vue3-recommended reactivates this rule
-    'vue/component-tags-order': ['error', { 'order': ['docs', 'template', 'script', 'style'] }]
+    'vue/component-tags-order': ['error', { 'order': ['docs', 'template', 'script', 'style'] }],
+    'vue/component-name-in-template-casing': ['error', 'PascalCase', {
+      registeredComponentsOnly: false,
+      globals: ['RouterView']
+    }]
   },
   overrides: [
     {
