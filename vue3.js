@@ -64,7 +64,11 @@ module.exports = {
     ],
     'vue/singleline-html-element-content-newline': 'off', // we use prettier to control this
     'no-undef': 'off', // vue3-recommended reactivates this rule
-    'vue/component-tags-order': ['error', { 'order': ['docs', 'template', 'script', 'style'] }]
+    'vue/component-tags-order': ['error', { 'order': ['docs', 'template', 'script', 'style'] }],
+    'vue/component-name-in-template-casing': ['error', 'PascalCase', {
+      registeredComponentsOnly: false,
+      globals: ['RouterView']
+    }]
   },
   overrides: [
     {
