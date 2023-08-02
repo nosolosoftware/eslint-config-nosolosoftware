@@ -30,6 +30,9 @@ module.exports = {
     'import/no-duplicates': 'off',
     '@typescript-eslint/no-duplicate-imports': 'error',
 
+    // Usamos la version de typescript
+    'func-call-spacing': 'off',
+
     '@typescript-eslint/consistent-type-imports': [
       'error',
       {
