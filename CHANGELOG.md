@@ -4,7 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.0.0] - 2023-20-12
+## [6.1.0] - 2023-08-02
+
+### Changed
+* Disabled no-spaced-func as it is marked as deprecated.
+* Disabled func-call-spacing on typescript as it has its own typescript's version.
+
+## [6.0.0] - 2023-07-20
 
 ### Added
 * Added vue/component-name-in-template-casing to use PascalCase. Following recommendations on SFC: https://vuejs.org/guide/essentials/component-basics.html#using-a-component
@@ -12,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 * Change vue/component-definition-name-casing to use PascalCase. Following recommendations on SFC: https://vuejs.org/guide/essentials/component-basics.html#using-a-component
 
-## [5.1.0] - 2023-17-12
+## [5.1.0] - 2023-07-17
 
 ### Changed
 * Added comma-spacing to prettier-conflict
