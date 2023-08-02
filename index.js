@@ -46,5 +46,6 @@ module.exports = {
     // Lo desactivamos para que las clases tengan todas un nombre y los LSP sean de ayuda
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'error',
+    'no-spaced-func': 'off', // Esta deprecated
   }
 };
