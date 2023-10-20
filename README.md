@@ -33,6 +33,12 @@ extends:
   - nosolosoftware
   - nosolosoftware/vue2 // nosolosoftare/v3 if v3.X is being used
 ```
+* Use of jest:
+```yaml
+extends:
+  - nosolosoftware
+  - nosolosoftware/jest
+```
 * Use of typescript
 ```yaml
 extends:
