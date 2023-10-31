@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nosolosoftware",
-  "version": "6.4.0",
+  "version": "6.5.0",
   "description": "NosoloSoftware Javascript style guide",
   "main": "index.js",
   "author": "Juan Antonio Galisteo <jgalisteo@nosolosoftware.es>",
