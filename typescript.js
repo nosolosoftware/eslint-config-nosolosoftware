@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'plugin:@typescript-eslint/strict-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:import/typescript',
   ],
   parserOptions: {
@@ -12,7 +12,6 @@ module.exports = {
   plugins: ['@typescript-eslint', 'import'],
   rules: {
     'no-void': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', {argsIgnorePattern: '_'}],
     // Queremos permitir constructores sin cuerpo porque en los argumentos podemos definir las
     // propiedades
     'no-useless-constructor': 'off',
